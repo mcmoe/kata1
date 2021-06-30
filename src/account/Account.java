@@ -19,10 +19,11 @@ public class Account {
         this.fiscalNumber = fiscalNumber;
 
 
-        this.id = id;
+        this.id = accountId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.creditScore = creditScore;
+        this.fiscalNumber = fiscalNumber;
         this.birthdate = birthdate;
         this.clientType = clientType;
         this.creditLimit = creditLimit;
