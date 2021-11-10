@@ -56,7 +56,7 @@ public class AccountCreationService {
        }
         else if(creditscore== CreditScore.EXCELLENT) {
            clientType = "Gold";
-           sql =  "INSERT INTO GOLDACCOUNT (FIRSTNAME, LASTNAME, FISCALNUM, BIRTHDATE, CREDITSCORE, CREDITLIMIT, CREDITSCORE) " +
+           sql =  "INSERT INTO GOLDACCOUNT (FIRSTNAME, LASTNAME, FISCALNUM, BIRTHDATE, CREDITSCORE, CREDITLIMIT) " +
                    "VALUES (" + firstName + "," + lastName + "," + fiscalNumber + "," + birthdate.toEpochDay()+ "," + creditscore +"," + 5000 + ")";
 
        }
