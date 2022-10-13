@@ -1,7 +1,7 @@
-package account;
+package com.murex.account;
 
-import credit.CreditScore;
-import credit.CreditScoreService;
+import com.murex.credit.CreditScore;
+import com.murex.credit.CreditScoreService;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

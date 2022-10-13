@@ -1,4 +1,4 @@
-package account;
+package com.murex.account;
 
 import java.time.LocalDate;
 

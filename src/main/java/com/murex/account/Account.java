@@ -1,6 +1,6 @@
-package account;
+package com.murex.account;
 
-import credit.CreditScore;
+import com.murex.credit.CreditScore;
 
 import java.time.LocalDate;
 

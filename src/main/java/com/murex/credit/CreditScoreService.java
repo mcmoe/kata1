@@ -1,6 +1,6 @@
-package credit;
+package com.murex.credit;
 
-import credit.CreditScore;
+import com.murex.credit.CreditScore;
 
 import java.net.URI;
 import java.net.http.HttpClient;
